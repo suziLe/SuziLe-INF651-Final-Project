@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<title>Convert USD or Yuan To VND</title>
+
+<meta charset="utf-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link href="project.css" rel="stylesheet">
+
+<script src="converter.js"></script>
+
+
+</head>
+
+<body>
+
+<div id="wrapper"><!--Begin Content wrapper-->
+
+<header>
+
+<h1>Convert USD or Yuan To VND</h1>
+
+</header>
+
+<nav>
+
+<ul>
+
+<li><a href="index.html">Home</a></li>
+
+
+</ul>
+
+</nav>
+
+<main>
+	<h4>Currency Converter. Convert USD or Yuan To VND</h4>
+			
+			<div class="form-group">
+			<select onchange="Currency(); Calculate()" class="form-control" id="converter" style="width:30%;">
+					<option value="USD">USD</option>
+					<option value="Yuan">Yuan</option>
+					
+				</select>
+				
+				<input type="number" oninput="Calculate()" class="form-control" id="value1"/>
+			</div>
+			
+			<div class="form-group">
+				<label>VND</label>
+				<input type="number" class="form-control" id="value2" disabled="disabled"/>
+			</div>
+		</div>
+	</div>
+
+
+</main>
+
+
+
+
+<footer> Copyright &copy; 2019 Suzi Le<br> <a href="mailto:s_le3@mail.fhsu.edu">s_le3@mail.fhsu.edu</a> </footer>
+</div><!--End Content wrapper-->
+
+</body>
+
+</html>
